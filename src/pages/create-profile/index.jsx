@@ -96,7 +96,7 @@ const CreateProfile = () => {
       <VStack spacing={8} w="full" maxW="lg" p={8}>
         {showIntro ? (
           <Box textAlign="center">
-            <Heading mb={10}>Let's Build Your Profile</Heading>
+            <Heading mb={10}>Lets Build Your Profile</Heading>
             <Button colorScheme="blue" onClick={() => setShowIntro(false)}>Start</Button>
           </Box>
         ) : (

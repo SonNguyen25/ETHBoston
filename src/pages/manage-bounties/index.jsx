@@ -39,7 +39,7 @@ export default function ManageBounties() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          bountyId: 11,
+          bountyId: 15,
           walletAddress: walletAddress
         })
       });
